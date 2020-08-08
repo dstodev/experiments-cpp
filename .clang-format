@@ -1,0 +1,37 @@
+# 2019 Daniel Stotts
+
+---
+BasedOnStyle: LLVM
+IndentWidth: 8
+ColumnLimit: 120
+---
+Language: Cpp
+Standard: Cpp11
+AccessModifierOffset: -8
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterClass: true
+    AfterEnum: true
+    AfterExternBlock: true
+    AfterFunction: true
+    AfterNamespace: false
+    AfterStruct: true
+    AfterUnion: true
+    SplitEmptyFunction: false
+    SplitEmptyNamespace: false
+    SplitEmptyRecord: false
+
+AlignConsecutiveMacros: true
+AllowAllConstructorInitializersOnNextLine: true
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakTemplateDeclarations: true
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+IndentPPDirectives: BeforeHash
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Middle
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 2
+UseTab: ForIndentation
+...
